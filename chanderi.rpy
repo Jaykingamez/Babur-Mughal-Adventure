@@ -1,6 +1,6 @@
 ﻿define b = Character('Babur', color="#419121")
 
-label start:
+label chanderi:
 
     scene bg samarkand
 
@@ -137,4 +137,4 @@ label choices3_common:
 
     "Rather, Babur ordered a tower of skulls, which was used to be erected in an act of barbarism, in order to record his record monumental victory."
 
-    return
+    jump conclusion

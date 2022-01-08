@@ -18,7 +18,7 @@ image Babur portrait = "Babur.png"
 image uzbek_flag = 'uzbek flag.png'
 image kyrgz_flag = 'kyrgz flag.png'
 
-label start:
+label conclusion:
 
     Babur "Alas, the end has come for me, earlier than I thought it would."
     Babur "I died in Agra on 5th January, 1531, at the young age of 47 due to health reasons."

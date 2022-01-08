@@ -93,4 +93,4 @@ label paniput:
 
     # This ends the game.
 
-    return
+    jump chanderi
