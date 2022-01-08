@@ -6,8 +6,17 @@ label chanderi:
 
     play music "audio/sapajou-zurna-instrumental.mp3"
 
-
     show babur
+
+    # begin of Khanwa summary
+
+    "{i}Okay so for the sake of not turning this into a scary history class...{/i}"
+
+    "{i}We're gonna skip the Battle of Khanwa in which the Babur had defeated the Rajput Confederacy...{/i}"
+
+    "{i}...and firmly establish Mughal rule while crushing regrowing Rajput powers as the battle was fought for supremacy of Northern India between Rajputs and Mughals.{/i}"
+
+    # end of Khanwa summary
 
     b "That Rajput must have learned a lesson. I shall now be able to take short break."
     
@@ -25,6 +34,8 @@ label choices1:
 
     "Me" "..."
 
+    hide babur
+
 menu:
 
     "Negotiate for peace?":
@@ -35,11 +46,15 @@ menu:
 
 label choices1_a:
 
+    show babur
+
     b "Ridiculous!"
 
     jump choices1_common
 
 label choices1_b:
+
+    show babur
 
     b "Aiz, I already knew you unambitious people."
 
@@ -57,11 +72,11 @@ label choices1_common:
 
     hide babur
 
-    "Babur then prepared for the attack at Malwa as planned..."
+    "{i}Babur then prepared for the attack at Malwa as planned...{/i}"
     
-    "December 1527, Babur finally marched to the capital of Malwa, Chanderi."
+    "{i}December 1527, Babur finally marched to the capital of Malwa, Chanderi.{/i}"
     
-    "On 20 Januray 1528, Babur initiated an offer with Rai."
+    "{i}On 20 Januray 1528, Babur initiated an offer with Rai.{/i}"
 
     show babur
 
@@ -107,11 +122,11 @@ label choices2_common:
 
     hide babur
 
-    "Consequently, Rai, the ruler Malwa, toghether with the people organized the Jauhar ceremony where Rajput women and children committed self-immolation to save their honour..."
+    "{i}Consequently, Rai, the ruler Malwa, toghether with the people organized the Jauhar ceremony where Rajput women and children committed self-immolation to save their honour...{/i}"
 
 label choices3:
     
-    "Do you think such an action ever touched Babur?"
+    "{i}Do you think such an action ever touched Babur?{/i}"
     
     "Me" "..."
 
@@ -127,7 +142,7 @@ menu:
 
 label choices3_common:
 
-    "Well, let's see what Babur says..."
+    "{i}Well, let's see what Babur says...{/i}"
 
     show babur
 
@@ -135,6 +150,6 @@ label choices3_common:
     
     hide babur
 
-    "Rather, Babur ordered a tower of skulls, which was used to be erected in an act of barbarism, in order to record his record monumental victory."
+    "{i}Rather, Babur ordered a tower of skulls, which was used to be erected in an act of barbarism, in order to record his record monumental victory.{/i}"
 
     jump conclusion

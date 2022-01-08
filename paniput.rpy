@@ -3,12 +3,10 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define b = Character("Babur") #babur
+define b = Character('Babur', color="#419121") #babur
 define n = Character (None, what_slow_cps=0) #narrator
 define i = Character ("Ibrahim Lodi, Sultan of Delhi")
-image babar neutral = im.FactorScale("babur.png", 1.5)
-image lodi neutral = im.FactorScale("lodi.png", 2.5)
-image bg war = im.FactorScale("war.png", 2.8)
+image bg war = im.FactorScale("war.png", 2)
 image bg black = im.FactorScale("black.jpg", 3)
 
 # The game starts here.
@@ -27,7 +25,7 @@ label paniput:
     # directory.
 
     play music "audio/punch-deck-bhangra-bass.mp3"
-    show babar neutral with fade
+    show babur
 
     # These display lines of dialogue.
 
@@ -41,31 +39,28 @@ label paniput:
 
     b "But I will do it anyway, with much planning, a secret trump card and some luck"
 
-    hide babar neutral with fade
-
-    n """{i} So Babur set off on his risky military campaign to the Delhi Sultanate {/i}"""
+    hide babur
+    n """{i}So Babur set off on his risky military campaign to the Delhi Sultanate.{/i}"""
 
     ##scene bg palace with dissolve
 
-    show lodi neutral with dissolve
-
+    show lodi
     i "So some random Babur is marching towards our frontier at Punjab?"
 
     i "We will see to the easy destruction of his pitiable army"
 
-    hide lodi neutral with dissolve
+    hide lodi
 
-    show babar neutral with fade
+    show babar
 
-    n "{i} On the 21st April 1526, Babur's invading army of 12,000 met Lohi's army of 70,000 near the city of Panipat {/i}"
+    n "{i}On the 21st April 1526, Babur's invading army of 12,000 met Lohi's army of 70,000 near the city of Panipat.{/i}"
 
     b "I know my outnumbered army would be utterly crushed if I didn't have {i}my secret weapon{/i}..."
 
     b "... Gunpowder firearms and cannons"
 
-    hide babar neutral with fade
-
-    scene bg war with dissolve
+    hide babar
+    scene bg war
 
     n "{i}Babur's field artillery proved to be a key advantage in the battle{/i}"
 
@@ -77,9 +72,8 @@ label paniput:
 
     n "{i}To make matters worse, the loud noises of Babur's artillery scared Lodi's war elephants into trampling many of his soldiers{/i}"
 
-    scene bg black with dissolve
-
-    show babar neutral with fade
+    scene bg black
+    show babar neutral 
 
     b "Of course, my military genius play a great role too"
 

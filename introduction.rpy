@@ -10,11 +10,11 @@ label start:
 
     show genghis at right
 
-    "Descendant of Timur and Genghis Khan, I knew I was destined for greatness"
+    b "Descendant of Timur and Genghis Khan, I knew I was destined for greatness"
 
-    "The blood of Timur came from my father, while the blood of Genghis came from my Mother"
+    b "The blood of Timur came from my father, while the blood of Genghis came from my Mother"
 
-    "Zahīr ud-Dīn Muhammad is the name I was given at birth, but now they call me Babur, derived with the Persian 'Babr', tiger."
+    b "Zahīr ud-Dīn Muhammad is the name I was given at birth, but now they call me Babur, derived with the Persian 'Babr', tiger."
 
     hide timur
 
