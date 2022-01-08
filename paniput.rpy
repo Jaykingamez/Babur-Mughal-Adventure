@@ -13,7 +13,7 @@ image bg black = im.FactorScale("black.jpg", 3)
 
 # The game starts here.
 
-label start:
+label paniput:
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the

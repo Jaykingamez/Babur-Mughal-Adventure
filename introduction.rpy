@@ -55,3 +55,5 @@ label start:
     b "Punjab was swiftly conquered. Right by our borders, lay the crumbling Delhi Sultanate."
 
     b "Defectors from the Sultanate invited me take control of the throne. With an opportunity in my sight, how could I refuse?"
+    
+    jump paniput
