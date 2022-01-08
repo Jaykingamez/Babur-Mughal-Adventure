@@ -51,7 +51,7 @@ label paniput:
 
     hide lodi
 
-    show babar
+    show babur
 
     n "{i}On the 21st April 1526, Babur's invading army of 12,000 met Lohi's army of 70,000 near the city of Panipat.{/i}"
 
@@ -59,7 +59,7 @@ label paniput:
 
     b "... Gunpowder firearms and cannons"
 
-    hide babar
+    hide babur
     scene bg war
 
     n "{i}Babur's field artillery proved to be a key advantage in the battle{/i}"
@@ -73,7 +73,7 @@ label paniput:
     n "{i}To make matters worse, the loud noises of Babur's artillery scared Lodi's war elephants into trampling many of his soldiers{/i}"
 
     scene bg black
-    show babar neutral 
+    show babur
 
     b "Of course, my military genius play a great role too"
 
